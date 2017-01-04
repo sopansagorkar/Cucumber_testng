@@ -1,0 +1,174 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 12,
+        "name": "Login Functionality",
+        "description": "",
+        "id": "login-functionality-feature;login-functionality;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11680488861,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on Home Page Login",
+            "match": {
+              "location": "TestLogin.user_is_on_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1289999498,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User Navigate to LogIn Page",
+            "match": {
+              "location": "TestLogin.user_Navigate_to_LogIn_Page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3740955275,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters \"mercury\" and \"mercury\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "mercury",
+                  "offset": 13
+                },
+                {
+                  "val": "mercury",
+                  "offset": 27
+                }
+              ],
+              "location": "TestLogin.user_enters_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 27560137,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Message displayed Login Successfully",
+            "match": {
+              "location": "TestLogin.message_displayed_Login_Successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Login"
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Login Functionality",
+        "description": "",
+        "id": "login-functionality-feature;login-functionality;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9098109955,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on Home Page Login",
+            "match": {
+              "location": "TestLogin.user_is_on_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1404461600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User Navigate to LogIn Page",
+            "match": {
+              "location": "TestLogin.user_Navigate_to_LogIn_Page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3759052477,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters \"snehap@cybage.com\" and \"cybage@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "snehap@cybage.com",
+                  "offset": 13
+                },
+                {
+                  "val": "cybage@123",
+                  "offset": 37
+                }
+              ],
+              "location": "TestLogin.user_enters_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 53775340,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Message displayed Login Successfully",
+            "match": {
+              "location": "TestLogin.message_displayed_Login_Successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Login"
+          }
+        ]
+      }
+    ],
+    "name": "Login Functionality Feature",
+    "description": "",
+    "id": "login-functionality-feature",
+    "keyword": "Feature",
+    "uri": "com/mercury/bdd/login/Login.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Login"
+      }
+    ]
+  }
+]
